@@ -40,8 +40,11 @@
     height: 100px;
 
     border-radius: 50px;
-    background-color: #D0D0D0;
+    background-color: #063A94;
+    color: white;
+    
 }
+
 
 #smart #smart-heading-container{
     padding-bottom: 50px;
@@ -149,6 +152,10 @@
 
 
 @media(min-width: 600px){
+
+    #smart .smart-icon-container{
+        font-size: 16pt;
+    }
     #venture {
         background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 70%), url('../images/meeting.png');
             
@@ -166,7 +173,7 @@
 }
 
 #rina-highlight{
-    background-color: #1386AD;
+    background-color: #063A94;
     color: white;
     height: 400px;
 }
@@ -204,7 +211,7 @@
 }
 
 #roger-highlight{
-    background-color: #1386AD;
+    background-color: #063A94;
     color: white;
     height: 400px;
 }
