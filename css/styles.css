@@ -1,0 +1,273 @@
+
+
+.navbar-brand img{
+    
+    max-width: 200px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+#masthead {
+    height: 580px;
+    
+
+    height: 580px;
+    background-color: rgba(6,58,148,1);
+    margin-top: 94px;
+    position: relative;
+    
+}
+
+#masthead #masthead_bg{
+    
+    background: url('../images/masthead_img.jpg');
+    background-size: cover;
+    height: 100%;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    width: 100%;
+}
+
+#masthead #masthead_content{
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+#smart {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#smart .smart-icon-container{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50px;
+    background-color: #063A94;
+    color: white;
+    
+}
+
+
+#smart #smart-heading-container{
+    padding-bottom: 50px;
+}
+
+#smart h5{
+    padding-top:20px;
+    padding-bottom:20px
+}
+
+
+
+#what-we-do-cards .card{
+    margin-bottom: 20px;
+}
+
+#what-we-do-cards .card-body{
+    padding: 20px;
+}
+
+#what-we-do {
+    background-color: #EFEFEF;
+}
+
+#criteria .criteria-item{
+    color: white;
+}
+
+#criteria .criteria-item{
+    background-color: #063A94;
+    padding:20px;
+}
+
+#criteria .criteria-item-container{
+    margin-bottom: 20px;
+}
+
+#criteria .check-container img{ 
+    width: 24px;
+    margin:10px;
+}
+
+#venture {
+    background: linear-gradient( to right,  rgba(255,255,255,1) 60%,  rgb(255, 255, 255,0) 90%), url('../images/meeting.png');
+    
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#venture .benefit-item {
+    padding: 10px;
+}
+
+#venture .benefit-item img{
+    padding-right: 10px;
+}
+
+#companies{
+    background-color: #EFEFEF;
+}
+
+#companies .company{
+   
+    padding:10px;
+
+ 
+}
+
+.company-logo-container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding:20px;
+}
+
+
+
+#founders {
+    min-height: 580px;
+    color: white;
+    
+
+
+    background: linear-gradient( rgba(6,58,148,0.5) 0, rgba(6,58,148,0.5) 0) , url('../images/masthead_img.jpg');
+    background-size: cover;
+}
+
+#founders #founders_bg{
+    
+
+    
+    height: 100%;
+    opacity: 0.5;
+
+    width: 100%;
+}
+
+
+#founders .founder-item img{
+    height: 180px;
+    width: 180px;
+    margin-right: 20px;
+    border-radius: 90px;
+}
+
+
+@media(min-width: 600px){
+
+    #smart .smart-icon-container{
+        font-size: 16pt;
+    }
+    #venture {
+        background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 70%), url('../images/meeting.png');
+            
+    background-position: center;
+    background-size: cover;
+    }
+
+    #smart .smart-icon-container{
+        width: 150px;
+        height: 150px;
+    
+        border-radius: 75px;
+        padding: 20px;
+
+    }
+}
+
+#rina-highlight{
+    background-color: #063A94;
+    color: white;
+    height: 400px;
+}
+
+#rina-highlight-image {
+    height: 500px;
+    background-image: url('../images/rina2.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+#rina-awards{
+    background-color: #EFEFEF;
+}
+
+#rina-awards .rina-award-item-container{
+    padding: 10px;
+
+}
+
+#rina-awards .rina-award-item{
+    background-color: white;
+    padding:10px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+#roger-highlight-image{
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/roger1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#roger-highlight{
+    background-color: #063A94;
+    color: white;
+    height: 400px;
+}
+
+#roger-awards{
+    background-color: #EFEFEF;
+}
+
+#roger-awards .roger-award-item-container{
+    padding: 10px;
+
+}
+
+#roger-awards .roger-award-item{
+    background-color: white;
+    padding:10px;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+#map{
+    background-image: url('../images/map.png');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media(min-width: 1200px){
+    #venture {
+        background: linear-gradient( to right,  rgba(255,255,255,1) 20%,  rgb(255, 255, 255,0) 50%), url('../images/meeting.png');
+            
+    background-position: center;
+    background-size: cover;
+    }
+    #smart .smart-icon-container{
+        width: 180px;
+        height: 180px;
+    
+        border-radius: 90px;
+
+    }
+}
+
+@media(min-width: 1600px){
+    #smart .smart-icon-container{
+        width: 200px;
+        height: 200px;
+    
+        border-radius: 100px;
+
+    }
+}
