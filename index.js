@@ -1,10 +1,11 @@
 const express = require('express');
-
+var path = require('path');
 const app = express();
 
 
 const port = 3001;
 app.use(express.static('static'));
-app.get('/',(req,res) => res.send('Welcome to RXR. Website coming soon'));
+app.get('/press',(req,res) => res.sendFile(path.join(__dirname + '/static/press.html')));
+app.get('/',(req,res) => res.sendFile(path.join(__dirname + '/static/index.html')));
 
 app.listen(port,()=> console.log(`Running on port: ${port}`));
